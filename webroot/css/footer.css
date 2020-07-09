@@ -2,6 +2,8 @@ button {
    border: transparent; 
 
 }
-footer {
+.sports_app_footer {
     display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
 }
