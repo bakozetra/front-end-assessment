@@ -1,9 +1,10 @@
 .sports_app_main_header{
    color:#333333 ;
-   padding-left: 2rem;
-   padding-right: 2rem;
    text-align: center;
+   font-size: 30px;
 }
 .sports_app_main_description {
    text-align: center;
+   font-size: 16px;
+   margin-bottom: 2rem;
 }

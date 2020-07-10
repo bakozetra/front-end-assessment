@@ -1,9 +1,9 @@
 button {
-   border: transparent; 
+   background-color:#F4F6F9;
+}
+.sports_app_footer_button {
+ 
+   border:#F4F6F9 ;
+   
+}
 
-}
-.sports_app_footer {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2rem;
-}
