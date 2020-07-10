@@ -23,6 +23,10 @@
         margin-inline-start: 1rem;
         margin-inline-end: 2rem;
      }
+     .sports_app_main_description {
+         margin-inline-start: 1rem;
+         margin-inline-end: 2rem;
+     }
 }
      
 
@@ -42,17 +46,30 @@
      .sports_app_main_description {
         text-align: none;
         font-size: 18px;
+        width: 453px;
      }
      .sports_app_main_header {
         text-align: none;
         margin-inline-start: 0rem;
         font-size: 36px;
-        padding-top: 5rem;
+        padding-top: 4rem;
         transform: translate();
+        align-items: flex-end;
+        width: 480px;
+        height: 96px;
+      
      }
-     body {
-         text-align-last: left;
-         padding-left: 163px;
+      body {
+        text-align-last: left;
+        padding-left: 163px;
+        background-image: url(../img/bg_header.png);
+        background-repeat: no-repeat;
+        background-size: 700px;
+        background-position: 115% 70%;
+     }
+     .sports_app_header--heading > img {
+         width: 90px;
+         height: 32px;
      }
 
 
