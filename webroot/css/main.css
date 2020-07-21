@@ -1,10 +1,66 @@
-.sports_app_main_header{
-   color:#333333 ;
-   text-align: center;
-   font-size: 30px;
+.sports_app_main_header {
+    color: #333333;
+    font-size: 30px;
 }
+
 .sports_app_main_description {
-   text-align: center;
-   font-size: 16px;
-   margin-bottom: 2rem;
+    font-size: 16px;
+}
+
+@media(max-width: 368px) {
+    .sports_app_footer_button {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        outline: none;
+    }
+    .sports_app_main_header {
+        text-align: center;
+        margin-inline-start: 2rem;
+        margin-inline-end: 2rem;
+    }
+    .sports_app_main_description {
+        margin-inline-start: 1rem;
+        margin-inline-end: 1rem;
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+    .sports_app_footer_button {
+        outline: none;
+    }
+    .sports_app_footer_button--apple {
+        margin-right: 2rem;
+    }
+    .sports_app_main_description {
+        padding-right: 484px;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    .sports_app_main_header {
+        letter-spacing: 0.03em;
+        padding-right: 350px;
+        font-size: 36px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 163px;
+        background-repeat: no-repeat;
+        background-image: url(../img/bg_header.png);
+        background-repeat: no-repeat;
+        background-size: 700px;
+        background-position: 115% 60%;
+    }
+    .sports_app_header--heading>img {
+        font-size: 16px;
+        font-weight: 400px;
+        width: 70px;
+    }
 }
