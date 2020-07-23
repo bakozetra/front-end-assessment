@@ -13,7 +13,7 @@
         display: flex;
         flex-direction: row;
     }
-    .article__navigation_unorder_list:nth-of-type(1) {
+    .article__navigation_unorder_list:nth-of-type(1)>img {
         margin-right: 1.5rem;
         margin-left: -2.5rem;
     }
