@@ -1,43 +1,35 @@
 @font-face {
-    font-family: "lato";
-    font-weight: 700;
-    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../font/Lato-Bold.woof") format("woff");
-}
+  font-family: "lato";
+  font-weight: 700;
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../font/Lato-Bold.woof") format("woff"); }
 
 @font-face {
-    font-family: "lato";
-    font-weight: 400;
-    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
-}
+  font-family: "lato";
+  font-weight: 400;
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"); }
 
 body {
-    font-weight: 400;
-    background-color: #F4F6F9;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0;
-}
+  font-weight: 400;
+  background-color: #F4F6F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0; }
 
 html {
-    font-family: 'lato', sans-serif;
-}
+  font-family: 'lato', sans-serif; }
 
 li {
-    list-style: none;
-}
+  list-style: none; }
 
 header {
-    text-align: center;
-}
+  text-align: center; }
 
-.header header__heading>a {
-    font-size: 48px;
-}
-
+.header header__heading > a {
+  font-size: 48px; }
 
 /* .sports_app_main_header {
     color: #333333;
@@ -48,40 +40,31 @@ header {
     font-size: 16px;
 }
 */
-
 @media (max-width: 368px) {
-    .article__navigation_unorder_list {
-        display: flex;
-        flex-direction: row;
-    }
-    .article__navigation_unorder_list:nth-of-type(1) {
-        margin-right: 1.5rem;
-        margin-left: -2.5rem;
-    }
-    .article__description {
-        text-align: center;
-        padding-right: 2rem;
-        padding-left: 1rem;
-        font-size: 16px;
-        padding-bottom: 50px;
-    }
-    .article__header--heading {
-        text-align: center;
-        padding-right: 2.5rem;
-        padding-left: 2.5rem;
-        font-size: 30px;
-        padding-bottom: 33px;
-    }
-    .header__heading {
-        padding-bottom: 50px;
-    }
-    .header__heading>a>img {
-        font-size: 48px;
-        width: 120px;
-        height: 60px;
-    }
-}
-
+  .article__navigation_unorder_list {
+    display: flex;
+    flex-direction: row; }
+  .article__navigation_unorder_list:nth-of-type(1) > img {
+    margin-right: 1.5rem;
+    margin-left: -2.5rem; }
+  .article__description {
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    font-size: 16px;
+    padding-bottom: 50px; }
+  .article__header--heading {
+    text-align: center;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    font-size: 30px;
+    padding-bottom: 33px; }
+  .header__heading {
+    padding-bottom: 50px; }
+  .header__heading > a > img {
+    font-size: 48px;
+    width: 120px;
+    height: 60px; } }
 
 /*
 @media(min-width: 768px) {
@@ -121,8 +104,6 @@ header {
         background-position: 600px 50%;
     }
 } */
-
-
 /* button {
    background-color:#F4F6F9;
 }
