@@ -1,6 +1,7 @@
+@import "variables";
 body {
     font-weight: 400;
-    background-color: #F4F6F9;
+    background-color: $heading-color;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
