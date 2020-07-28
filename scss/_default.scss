@@ -1,7 +1,6 @@
 @import "variables";
 body {
     font-weight: 400;
-    background-color: $heading-color;
 }
 
 html {
@@ -14,4 +13,8 @@ li {
 
 .header__heading {
     text-align: center;
+}
+
+.header {
+    background-color: $heading-color;
 }
