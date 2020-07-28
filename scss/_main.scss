@@ -1,4 +1,8 @@
+@import "variables";
 @media(max-width: 368px) {
+    section {
+        list-style: none;
+    }
     .article__navigation_unorder_list {
         display: flex;
         flex-direction: row;
@@ -28,6 +32,23 @@
         font-size: 48px;
         width: 120px;
         height: 60px;
+    }
+    .section {
+        text-align: $text-align;
+        margin-left: $margin;
+        margin-right: $margin;
+        padding-left: $padding * 11;
+        padding-right: $padding * 11;
+    }
+    .section__header_heading {
+        color: $colorOfHeading;
+        font-size: $font-size;
+        text-transform: $text-transform;
+    }
+    .section_informations {
+        text-transform: $text-transform;
+        color: $colorOfHeading;
+        text-decoration: $decoration-style;
     }
 }
 
