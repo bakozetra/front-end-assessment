@@ -1,0 +1,56 @@
+@import "variables";
+@media(max-width: 368px) {
+    .friendly_section {
+        text-align: $text-align;
+        margin-left: $margin;
+        margin-right: $margin;
+        padding-left: $padding * 11;
+        padding-right: $padding * 11;
+        background-image: url(../img/bg_friendly_user_interface.png);
+        background-position: 50% 20%;
+        background-repeat: no-repeat;
+        background-size: 1500px;
+        padding-bottom: 650px;
+    }
+    .friendly__header_heading {
+        color: $colorOfHeading;
+        font-size: $font-size;
+        text-transform: $text-transform;
+    }
+    .friendly_informations {
+        text-transform: $text-transform;
+        color: $colorOfHeading;
+        text-decoration: $decoration-style;
+    }
+}
+
+@media(min-width: 1120px) {
+    .friendly__header_heading+p+p {
+        padding-right: 42px;
+    }
+    .friendly_section {
+        background-image: url(../img/bg_friendly_user_interface.png);
+        background-position: 200px 50%;
+        background-repeat: no-repeat;
+        background-size: 1600px;
+    }
+    .friendly_description {
+        padding-right: 40rem;
+        padding-bottom: 2rem;
+    }
+    .friendly__header_heading {
+        color: $colorOfHeading;
+        font-size: $font-size;
+        text-transform: $text-transform;
+    }
+    .friendly_informations>div {
+        background-color: blue;
+    }
+    .friendly_section_container {
+        max-width: 1114px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+}
