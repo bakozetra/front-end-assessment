@@ -38,6 +38,9 @@
         padding-left: 0;
         color: white;
     }
+    .list_item_image+li {
+        list-style: disc;
+    }
     .list_item_image svg {
         fill: white;
     }

@@ -1,0 +1,25 @@
+@media(max-width: 368px) {
+    .logo_unorder_list {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .logo_unorder_list li {
+        margin-bottom: 20px;
+    }
+    .logo_list_item--tv {}
+    .logo_list_item--sports {
+        margin-left: 3rem;
+    }
+    .logo_list_item--nbc {
+        margin-right: 2rem;
+    }
+    .logo_list_item--designer {
+        margin-right: 2rem;
+    }
+    .logo_list_item--tv+li+li+li+li+li {
+        margin-left: 3rem;
+    }
+}

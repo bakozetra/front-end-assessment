@@ -14,6 +14,10 @@ html {
     text-align: center;
 }
 
+li {
+    list-style: none;
+}
+
 .header {
     background-color: $heading-color;
 }
