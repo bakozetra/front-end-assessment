@@ -9,7 +9,8 @@
   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"); }
 
 body {
-  font-weight: 400; }
+  font-weight: 400;
+  margin: 0; }
 
 html {
   font-family: 'lato', sans-serif; }
@@ -72,9 +73,10 @@ li {
 
 @media (max-width: 368px) {
   .list_item_image svg {
-    fill: blue; }
+    fill: #00ADEE; }
+  .footer_unorder_list {
+    padding-left: 0; }
   ol {
-    padding-left: 0;
     margin-left: auto;
     margin-right: auto; }
   li {
@@ -128,6 +130,50 @@ li {
 }
  */
 @media (max-width: 368px) {
+  .footer_logo {
+    background-color: #00ADEE;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-left: 1rem;
+    padding-top: 2rem; }
+  .icon_unorder_list {
+    display: flex;
+    padding-left: 0; }
+  .icon_unorder_list > li {
+    padding-right: 0.75rem; }
+  .icon_unorder_list > li > li {
+    padding-right: 0.75rem; }
+  .footer_unorder_list_security {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0; }
+  .footer_list_Item_security > a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px; } }
+
+@media (min-width: 1120px) {
+  .footer_logo {
+    background-color: #00ADEE;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 1rem;
+    padding-top: 2rem; }
+  .footer_list_Item_security > a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px; }
+  .footer_unorder_list_security {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0; }
+  .icon_unorder_list {
+    display: flex;
+    padding-left: 0; } }
+
+@media (max-width: 368px) {
   .friendly_section {
     text-align: center;
     margin-left: auto;
@@ -164,7 +210,7 @@ li {
     font-size: 16px;
     text-transform: uppercase; }
   .friendly_informations > div {
-    background-color: blue; }
+    background-color: #00ADEE; }
   .friendly_section_container {
     max-width: 1114px;
     margin-left: auto;
@@ -180,7 +226,7 @@ li {
   .feature_section {
     color: #00ADEE;
     text-decoration: none;
-    background-color: blue; }
+    background-color: #00ADEE; }
   .feature_header {
     text-align: center;
     padding-top: 50px;
@@ -225,3 +271,13 @@ li {
     margin-right: 2rem; }
   .logo_list_item--tv + li + li + li + li + li {
     margin-left: 3rem; } }
+
+@media (min-width: 1120px) {
+  .logo_unorder_list {
+    display: flex;
+    justify-content: space-evenly; }
+  .logo_section > header {
+    text-align: center;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333; } }

@@ -6,6 +6,7 @@
         width: 100%;
         align-items: center;
     }
+
     .logo_unorder_list li {
         margin-bottom: 20px;
     }
@@ -23,3 +24,18 @@
         margin-left: 3rem;
     }
 }
+
+@media(min-width: 1120px) {
+  .logo_unorder_list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .logo_section > header{
+    text-align: center;
+    font-size: 28px;
+   line-height: 37px;
+   color: #333333;
+  }
+}
+
+
