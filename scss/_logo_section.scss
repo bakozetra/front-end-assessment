@@ -2,7 +2,6 @@
     .logo_unorder_list {
         display: flex;
         flex-wrap: wrap;
-        padding-left: 0;
         width: 100%;
         align-items: center;
     }
@@ -23,18 +22,30 @@
     .logo_list_item--tv+li+li+li+li+li {
         margin-left: 3rem;
     }
+    .logo_section > header > h3{
+      text-align: center;
+      font-size: 28px;
+      line-height: 37px;
+      color: #333333;
+    }
 }
 
 @media(min-width: 1120px) {
   .logo_unorder_list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-left: 0;
   }
   .logo_section > header{
     text-align: center;
     font-size: 28px;
-   line-height: 37px;
-   color: #333333;
+    line-height: 37px;
+    color: #333333;
+  }
+  .logo_section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1114px;
   }
 }
 

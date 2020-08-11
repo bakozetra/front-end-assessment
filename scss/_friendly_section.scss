@@ -17,6 +17,11 @@
         font-size: $font-size;
         text-transform: $text-transform;
     }
+    .friendly__header_heading + h3 {
+      color: #333333;
+      font-size: 28px;
+
+    }
     .friendly_informations {
         text-transform: $text-transform;
         color: $colorOfHeading;
@@ -27,6 +32,9 @@
 @media(min-width: 1120px) {
     .friendly__header_heading+p+p {
         padding-right: 42px;
+    }
+    .friendly__header_heading +h3 {
+      font-size: 28px;
     }
     .friendly_section {
         background-image: url(../img/bg_friendly_user_interface.png);
@@ -43,8 +51,10 @@
         font-size: $font-size;
         text-transform: $text-transform;
     }
-    .friendly_informations>div {
-        background-color:#00ADEE;
+    .friendly_informations {
+        color:#00ADEE;
+        text-decoration: none;
+
     }
     .friendly_section_container {
         max-width: 1114px;

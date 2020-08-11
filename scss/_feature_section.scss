@@ -3,6 +3,11 @@
     .order-list_list-item ul {
         padding-left: 0;
     }
+    .feature_header > h3 {
+      text-align: center;
+      color:#333333;
+      font-size: 28px;
+    }
 }
 
 @media(min-width: 1120px) {
@@ -16,6 +21,8 @@
         padding-top: 50px;
         padding-bottom: 30px;
         color: white;
+        font-size: 28px;
+
     }
     .feature_header {
         text-align: center;
@@ -38,8 +45,11 @@
         padding-left: 0;
         color: white;
     }
-    .list_item_image+li {
-        list-style: disc;
+    .list_item_image + li {
+        list-style: none;
+    }
+    .list_item_image + li::before {
+      content: " • ";
     }
     .list_item_image svg {
         fill: white;
